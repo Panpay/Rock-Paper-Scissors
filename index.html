@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Rock..Paper..Scissors</title>
+  </head>
+  <body>
+    <h1>Rock..Paper..Scissors..SHOOT!</h1>
+    <h2>Press your choice to play!</h2>
+    <div class="row">
+      <div class="column">
+        <input type = "image" src="./images/rock.png" name = "Rock" class ="rock" id = "rock" onclick="play(0)"/>
+        <!-- <img class = "rockimg" src = "./images/rock.png" alt = "Rock"> 
+        <figcaption>Rock</figcaption> -->
+        <!-- <button class = "rock"> Rock </button> -->
+      </div>
+      <div class="column">
+        <input type = "image" src="./images/paper.png" name = "Paper" class ="paper" id = "paper" onclick="play(1)"/>
+        <!-- <img class = "paperimg" src = "./images/paper.png" alt = "Paper">
+        <figcaption>Paper</figcaption> -->
+        <!-- <button class = "paper"> Paper </button> -->
+      </div>
+      <div class="column">
+        <input type = "image" src="./images/scissors.png" name = "Scissors" class ="scissors" id = "scissors" onclick="play(2)"/>
+        <!-- <img class = "scissorsimg" src = "./images/scissors.png" alt = "Scissors">
+        <figcaption>Scissors</figcaption> -->
+        <!-- <button class = "scissors"> Scissors </button> -->
+      </div>
+     </div>
+    <div class="results">
+      <span id = "results"></span>
+      <span> Score:</span>
+      <span id = "score">0</span>
+    </div>
+    <script src="rps.js"></script>
+  </body>
+
+  <footer>
+    <p>&copy; 2019 Pan Pan Chen</p>
+    <P>Images are the property of Onipse Dev.</P>
+</footer>
+</html>
